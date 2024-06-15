@@ -1,25 +1,194 @@
-:root{
-    --logo-color:#000;
-    --accent-color:#2196F3;
-    --title-color:#212121;
-    --additional-color:#757575;
-    --main-background:#fff;
-    --team-background:#F5F4FA;
+:root {
+    --logo-color: #000;
+    --accent-color: #2196F3;
+    --title-color: #212121;
+    --additional-color: #757575;
+    --main-background: #fff;
+    --team-background: #F5F4FA;
     --footer-background: #2F303A;
     --footer-number: rgba(255, 255, 255, 0.60);
 }
-/* span{
-    color: var(--accent-color);
+*{
+    padding: 0;
+    margin: 0;
 }
-a{
+.logo {
+    color: var(--logo-color);
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
     text-decoration: none;
 }
-header > a:first-child{
-    font-family: "Raleway";
+
+.logo span {
+    color: var(--accent-color);
 }
-ul {
+
+.pages {
+    list-style: none;
+}
+
+.nav-links a {
+    color: var(--title-color);
     font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+}
+
+.nav-links :hover {
+    color: var(--accent-color);
+}
+
+.contacts {
+    color: var(--additional-color);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+}
+
+.contacts :hover {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-color: var(--footer-background);
+    /* зроблено задля того аби було видно h1 на білому фоні */
+}
+
+.hero-title {
+    color: var(--main-background);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.hero-btn {
+    color: var(--main-background);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 16px;
     font-weight: 700;
-} */
+    line-height: 1.87;
+    letter-spacing: 0.96px;
+}
 
+.hero-btn:hover {
+    background-color: var(--accent-color);
+}
 
+.charact-select h2 {
+    color: var(--title-color);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.charact-select p {
+    color: var(--additional-color);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+
+.wawd-title {
+    color: var(--title-color);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 1.08px;
+}
+
+.wawd-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.workers-title {
+    color: var(--title-color);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 1.08px;
+}
+
+.workers-select h3 {
+    color: var(--title-color);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.18;
+    letter-spacing: 0.48px;
+}
+
+.workers-select p {
+    color: var(--additional-color);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: 0.48px;
+}
+
+footer {
+    background-color: var(--footer-background);
+}
+
+.fotter-logo {
+    color: var(--logo-color);
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+    text-decoration: none;
+}
+
+.fotter-logo span {
+    color: var(--accent-color);
+}
+
+.fotter-location {
+    color: var(--main-background);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    text-decoration: none;
+}
+.address-list{
+    list-style: none;
+}
+.address-contacts a {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    text-decoration: none;
+}
