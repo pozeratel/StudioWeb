@@ -14,6 +14,10 @@
     margin: 0;
 }
 
+body {
+    font-family: "Roboto";
+}
+
 .logo {
     color: var(--logo-color);
     font-family: "Raleway";
@@ -32,10 +36,6 @@
     list-style: none;
 }
 
-.nav-list {
-    font-family: "Roboto";
-}
-
 .nav-links {
     color: var(--title-color);
     font-size: 14px;
@@ -47,10 +47,6 @@
 
 .nav-links:hover {
     color: var(--accent-color);
-}
-
-.header-contacts {
-    font-family: "Roboto";
 }
 
 .header-links {
@@ -69,15 +65,10 @@
     background-color: var(--footer-background);
 }
 
-.hero {
-    font-family: "Roboto";
-}
-
 .hero-title {
     color: var(--main-background);
     text-align: center;
     font-size: 44px;
-    font-style: normal;
     font-weight: 900;
     line-height: 1.36;
     letter-spacing: 2.64px;
@@ -92,10 +83,6 @@
     font-weight: 700;
     line-height: 1.87;
     letter-spacing: 0.96px;
-}
-
-.charact {
-    font-family: "Roboto";
 }
 
 .charact-title {
@@ -115,10 +102,6 @@
     letter-spacing: 0.42px;
 }
 
-.wawd {
-    font-family: "Roboto";
-}
-
 .wawd-title {
     color: var(--title-color);
     text-align: center;
@@ -132,10 +115,6 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
-}
-
-.workers {
-    font-family: "Roboto";
 }
 
 .workers-title {
@@ -167,7 +146,6 @@
 
 footer {
     background-color: var(--footer-background);
-    font-family: "Raleway";
 }
 
 .fotter-logo {
@@ -177,6 +155,7 @@ footer {
     line-height: 1.38;
     letter-spacing: 0.78px;
     text-decoration: none;
+    font-family: "Raleway";
 }
 
 .footer-span {
@@ -186,7 +165,6 @@ footer {
 .fotter-location {
     color: var(--main-background);
     font-size: 14px;
-    font-family: "Roboto";
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
@@ -195,7 +173,6 @@ footer {
 
 .address-list {
     list-style: none;
-    font-family: "Roboto";
 }
 
 .address-contacts {
@@ -228,7 +205,6 @@ footer {
 
 .pages-name {
     color: var(--title-color);
-    font-family: Roboto;
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
@@ -237,7 +213,6 @@ footer {
 
 .pages-text {
     color: var(--additional-color);
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.87;
