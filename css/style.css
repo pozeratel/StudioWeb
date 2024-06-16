@@ -85,7 +85,8 @@
 }
 
 .hero-btn {
-    color: var(--accent-color);
+    background-color: var(--accent-color);
+    color: var(--main-background);
     text-align: center;
     font-size: 16px;
     font-weight: 700;
