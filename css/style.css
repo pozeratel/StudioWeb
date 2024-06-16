@@ -32,9 +32,12 @@
     list-style: none;
 }
 
+.nav-list {
+    font-family: "Roboto";
+}
+
 .nav-links {
     color: var(--title-color);
-    font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
@@ -46,9 +49,12 @@
     color: var(--accent-color);
 }
 
+.header-contacts {
+    font-family: "Roboto";
+}
+
 .header-links {
     color: var(--additional-color);
-    font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
@@ -63,10 +69,13 @@
     background-color: var(--footer-background);
 }
 
+.hero {
+    font-family: "Roboto";
+}
+
 .hero-title {
     color: var(--main-background);
     text-align: center;
-    font-family: "Roboto";
     font-size: 44px;
     font-style: normal;
     font-weight: 900;
@@ -78,16 +87,18 @@
 .hero-btn {
     color: var(--accent-color);
     text-align: center;
-    font-family: "Roboto";
     font-size: 16px;
     font-weight: 700;
     line-height: 1.87;
     letter-spacing: 0.96px;
 }
 
+.charact {
+    font-family: "Roboto";
+}
+
 .charact-title {
     color: var(--title-color);
-    font-family: "Roboto";
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
@@ -97,17 +108,19 @@
 
 .charact-text {
     color: var(--additional-color);
-    font-family: "Roboto";
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
 }
 
+.wawd {
+    font-family: "Roboto";
+}
+
 .wawd-title {
     color: var(--title-color);
     text-align: center;
-    font-family: "Roboto";
     font-size: 36px;
     font-weight: 700;
     line-height: 1.16;
@@ -120,10 +133,13 @@
     list-style: none;
 }
 
+.workers {
+    font-family: "Roboto";
+}
+
 .workers-title {
     color: var(--title-color);
     text-align: center;
-    font-family: "Roboto";
     font-size: 36px;
     font-weight: 700;
     line-height: 1.16;
@@ -133,7 +149,6 @@
 .workers-name {
     color: var(--title-color);
     text-align: center;
-    font-family: "Roboto";
     font-size: 16px;
     font-weight: 500;
     line-height: 1.18;
@@ -143,7 +158,6 @@
 .workers-text {
     color: var(--additional-color);
     text-align: center;
-    font-family: "Roboto";
     font-size: 16px;
     font-weight: 400;
     line-height: 1.18;
@@ -152,11 +166,11 @@
 
 footer {
     background-color: var(--footer-background);
+    font-family: "Raleway";
 }
 
 .fotter-logo {
     color: var(--main-background);
-    font-family: "Raleway";
     font-size: 26px;
     font-weight: 700;
     line-height: 1.38;
@@ -170,24 +184,22 @@ footer {
 
 .fotter-location {
     color: var(--main-background);
-    font-family: "Roboto";
     font-size: 14px;
+    font-family: "Roboto";
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
     text-decoration: none;
 }
-/* portfolio css */
-/* portfolio css */
-/* portfolio css */
 
 .address-list {
     list-style: none;
+    font-family: "Roboto";
 }
 
 .address-contacts {
     color: rgba(255, 255, 255, 0.60);
-    font-family: Roboto;
+    font-style: normal;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
@@ -195,10 +207,13 @@ footer {
     text-decoration: none;
 }
 
+/* portfolio css */
+/* portfolio css */
+/* portfolio css */
+
 .asortie-btn {
     color: var(--title-color);
     text-align: center;
-    font-family: "Roboto";
     font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
