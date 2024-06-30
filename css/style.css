@@ -9,7 +9,7 @@
     --footer-number: rgba(255, 255, 255, 0.60);
 }
 
-.container{
+.container {
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
@@ -17,6 +17,10 @@
 
 body {
     font-family: "Roboto";
+}
+
+.header {
+    padding: 24px 0px 25px 0px;
 }
 
 .logo {
@@ -59,6 +63,7 @@ body {
 
 .hero {
     background-color: var(--footer-background);
+    padding: 200px 0;
 }
 
 .hero-title {
@@ -90,6 +95,19 @@ body {
     text-transform: uppercase;
 }
 
+.charact{
+    padding: 94px 0 0 0;
+}
+
+/* .charact-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.charact-item{
+    width: 50%;
+} */
+
 .charact-text {
     color: var(--additional-color);
     font-size: 14px;
@@ -105,11 +123,31 @@ body {
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 1.08px;
+    margin-bottom: 50px ;
+}
+
+.wawd{
+    padding-top: 210px;
 }
 
 .wawd-list {
     display: flex;
     justify-content: space-around;
+}
+
+.workers {
+    padding: 101px;
+}
+
+.workers-img {
+    width: 270px;
+    height: 260px;
+}
+
+.workers-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .workers-title {
@@ -119,6 +157,7 @@ body {
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 1.08px;
+    margin-bottom: 58px;
 }
 
 .workers-name {
@@ -128,6 +167,7 @@ body {
     font-weight: 500;
     line-height: 1.18;
     letter-spacing: 0.48px;
+    margin-top: 29px;
 }
 
 .workers-text {
@@ -137,6 +177,7 @@ body {
     font-weight: 400;
     line-height: 1.18;
     letter-spacing: 0.48px;
+    margin-top: 16px;
 }
 
 footer {
