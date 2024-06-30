@@ -137,6 +137,7 @@ body {
 
 .workers {
     padding: 101px;
+    background-color: var(--team-background);
 }
 
 .workers-img {
@@ -182,6 +183,7 @@ body {
 
 footer {
     background-color: var(--footer-background);
+    padding: 60px;
 }
 
 .fotter-logo {
@@ -191,6 +193,7 @@ footer {
     line-height: 1.38;
     letter-spacing: 0.78px;
     font-family: "Raleway";
+    margin-bottom: 20px;
 }
 
 .footer-span {
@@ -219,6 +222,16 @@ footer {
 /* portfolio css */
 /* portfolio css */
 /* portfolio css */
+
+
+.asortie-list{
+    padding: 94px 0px 50px 0;    
+}
+
+.asortie{
+    padding-bottom: 114px;
+}
+
 
 .asortie-btn {
     color: var(--title-color);
