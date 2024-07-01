@@ -127,7 +127,7 @@ body {
 }
 
 .wawd{
-    padding-top: 210px;
+    padding: 94px;
 }
 
 .wawd-list {
@@ -136,7 +136,7 @@ body {
 }
 
 .workers {
-    padding: 101px;
+    padding: 94px 0;
     background-color: var(--team-background);
 }
 
@@ -183,7 +183,7 @@ body {
 
 footer {
     background-color: var(--footer-background);
-    padding: 60px;
+    padding: 60px 0;
 }
 
 .fotter-logo {
@@ -223,15 +223,9 @@ footer {
 /* portfolio css */
 /* portfolio css */
 
-
-.asortie-list{
-    padding: 94px 0px 50px 0;    
-}
-
 .asortie{
-    padding-bottom: 114px;
+    padding: 114px 0 100px 0;
 }
-
 
 .asortie-btn {
     color: var(--title-color);
