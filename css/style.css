@@ -10,7 +10,7 @@
 }
 
 .container {
-    max-width: 1200px;
+    width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -19,7 +19,12 @@ body {
     font-family: "Roboto";
 }
 
-.header {
+.header-top {
+    display: flex;
+    align-items: center;
+}
+
+header {
     padding: 24px 0px 25px 0px;
 }
 
@@ -30,11 +35,23 @@ body {
     font-weight: 700;
     line-height: 1.38;
     letter-spacing: 0.78px;
-    margin-top: 31px;
+    margin-right: 93px;
+    ;
 }
 
 .logo-color {
     color: var(--accent-color);
+}
+
+.header-contacts {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
 }
 
 .nav-links {
@@ -66,6 +83,14 @@ body {
     padding: 200px 0;
 }
 
+.hero-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
 .hero-title {
     color: var(--main-background);
     text-align: center;
@@ -84,6 +109,13 @@ body {
     font-weight: 700;
     line-height: 1.87;
     letter-spacing: 0.96px;
+    margin-top: 30px;
+    padding: 10px 32px;
+}
+
+.charact-list {
+    display: flex;
+    gap: 30px;
 }
 
 .charact-title {
@@ -95,18 +127,9 @@ body {
     text-transform: uppercase;
 }
 
-.charact{
+.charact {
     padding: 94px 0 0 0;
 }
-
-/* .charact-list{
-    display: flex;
-    flex-direction: row;
-}
-
-.charact-item{
-    width: 50%;
-} */
 
 .charact-text {
     color: var(--additional-color);
@@ -114,6 +137,7 @@ body {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
+    margin-top: 10px;
 }
 
 .wawd-title {
@@ -123,10 +147,10 @@ body {
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 1.08px;
-    margin-bottom: 50px ;
+    margin-bottom: 50px;
 }
 
-.wawd{
+.wawd {
     padding: 94px 0;
 }
 
@@ -186,6 +210,11 @@ footer {
     padding: 60px 0;
 }
 
+.footer-box {
+    display: flex;
+    flex-direction: column;
+}
+
 .fotter-logo {
     color: var(--main-background);
     font-size: 26px;
@@ -219,11 +248,15 @@ footer {
     text-decoration: none;
 }
 
+.address-item {
+    margin-top: 9px;
+}
+
 /* portfolio css */
 /* portfolio css */
 /* portfolio css */
 
-.asortie{
+.asortie {
     padding: 94px 0px 94px 0px;
 }
 
