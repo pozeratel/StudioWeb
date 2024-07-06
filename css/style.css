@@ -269,6 +269,16 @@ footer {
     padding: 94px 0px 94px 0px;
 }
 
+.asortie-all {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.pages-discription {
+    padding: 20px 0;
+}
+
 .asortie-btn {
     color: var(--title-color);
     text-align: center;
@@ -304,4 +314,10 @@ footer {
     font-weight: 400;
     line-height: 1.87;
     letter-spacing: 0.48px;
+    margin-top: 4px;
+}
+
+.asortie-img {
+    width: 370px;
+    height: 294px;
 }
