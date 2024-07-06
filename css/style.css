@@ -36,7 +36,6 @@ header {
     line-height: 1.38;
     letter-spacing: 0.78px;
     margin-right: 93px;
-    ;
 }
 
 .logo-color {
@@ -88,7 +87,6 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50%;
 }
 
 .hero-title {
@@ -99,6 +97,7 @@ header {
     line-height: 1.36;
     letter-spacing: 2.64px;
     text-transform: uppercase;
+    width: 696px;
 }
 
 .hero-btn {
@@ -156,7 +155,7 @@ header {
 
 .wawd-list {
     display: flex;
-    justify-content: space-around;
+    gap: 30px;
 }
 
 .workers {
@@ -192,7 +191,6 @@ header {
     font-weight: 500;
     line-height: 1.18;
     letter-spacing: 0.48px;
-    margin-top: 29px;
 }
 
 .workers-text {
@@ -202,7 +200,11 @@ header {
     font-weight: 400;
     line-height: 1.18;
     letter-spacing: 0.48px;
-    margin-top: 16px;
+    margin-top: 10px;
+}
+
+.workers-discription {
+    padding: 30px 0;
 }
 
 footer {
@@ -256,6 +258,13 @@ footer {
 /* portfolio css */
 /* portfolio css */
 
+.asortie-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
 .asortie {
     padding: 94px 0px 94px 0px;
 }
@@ -267,6 +276,13 @@ footer {
     font-weight: 500;
     line-height: 1.62;
     letter-spacing: 0.48px;
+    border: var(--title-color);
+    border-radius: 4px;
+    padding: 6px 25px;
+}
+
+.asortie-btn :hover {
+    background-color: var(--accent-color);
 }
 
 .asortie-btn:hover {
