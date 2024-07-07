@@ -7,6 +7,7 @@
     --team-background: #F5F4FA;
     --footer-background: #2F303A;
     --footer-number: rgba(255, 255, 255, 0.60);
+    --portfolio-header-line: #ECECEC;
 }
 
 .container {
@@ -205,6 +206,8 @@ header {
 
 .workers-discription {
     padding: 30px 0;
+    background-color: var(--main-background);
+    border-radius: 0px 0px 4px 4px;
 }
 
 footer {
@@ -258,6 +261,16 @@ footer {
 /* portfolio css */
 /* portfolio css */
 
+.port {
+    outline: 1px var(--portfolio-header-line) solid;
+}
+
+.asortie-pages {
+    border: 1px solid #EEE;
+    width: 370px;
+    height: 404px;
+}
+
 .asortie-list {
     display: flex;
     align-items: center;
@@ -278,7 +291,6 @@ footer {
 
 .pages-discription {
     padding: 20px 24px;
-    
 }
 
 .asortie-btn {
