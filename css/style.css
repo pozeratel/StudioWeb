@@ -292,8 +292,8 @@ footer {
 }
 
 .asortie-pages {
-    outline: 1px solid #EEE;
-    flex-basis: calc ((100% - 60px) / 3);
+    border: 1px solid #EEE;
+    flex-basis: calc((100% - 60px) / 3);
 }
 
 .pages-discription {
@@ -338,6 +338,6 @@ footer {
     margin-top: 4px;
 }
 
-.asortie-img {
+.pages-img {
     width: 100%;
 }
