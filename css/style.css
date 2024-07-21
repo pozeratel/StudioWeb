@@ -10,6 +10,10 @@
     --portfolio-header-line: #ECECEC;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .container {
     width: 1200px;
     padding: 0 15px;
@@ -269,12 +273,6 @@ footer {
     outline: 1px var(--portfolio-header-line) solid;
 }
 
-.asortie-pages {
-    border: 1px solid #EEE;
-    width: 370px;
-    height: 404px;
-}
-
 .asortie-list {
     display: flex;
     align-items: center;
@@ -291,6 +289,11 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+}
+
+.asortie-pages {
+    outline: 1px solid #EEE;
+    flex-basis: calc ((100% - 60px) / 3);
 }
 
 .pages-discription {
@@ -336,6 +339,5 @@ footer {
 }
 
 .asortie-img {
-    width: 370px;
-    height: 294px;
+    width: 100%;
 }
