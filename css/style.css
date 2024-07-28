@@ -83,11 +83,10 @@ header {
 }
 
 .hero {
-    background-image: url(../images/hero-bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: var(--footer-background);
+    background-image: url(../images/overlay.png), url(../images/hero-bg.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: cover, cover;
     padding: 200px 0;
 }
 
