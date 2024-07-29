@@ -125,9 +125,6 @@ header {
     padding: 10px 32px;
     border: none;
     border-radius: 4px;
-}
-
-.hero-btn:hover {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -143,22 +140,22 @@ header {
     height: 120px;
     border-radius: 4px;
     background-color: #F5F4FA;
-    background-image: url(../images/tv.png);
+    background-image: url(../images/space.png);
     display: block;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .charact-select:nth-child(1)::before {
-    background-image: url(../images/clock.png);
+    background-image: url(../images/tv.png);
 }
 
 .charact-select:nth-child(2)::before {
-    background-image: url(../images/diagram.png);
+    background-image: url(../images/clock.png);
 }
 
 .charact-select:nth-child(3)::before {
-    background-image: url(../images/space.png);
+    background-image: url(../images/clock.png);
 }
 
 
