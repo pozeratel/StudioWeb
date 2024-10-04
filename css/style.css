@@ -82,6 +82,8 @@ header {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.28px;
+    display: flex;
+    align-items: center;
 }
 
 :focus{
@@ -104,7 +106,7 @@ header {
 }
 
 .tel {
-    fill: var(--main-svg-fill);
+    fill: var(--additional-color);
     width: 10px;
     height: 16px;
     margin-right: 10px;
@@ -115,7 +117,7 @@ header {
 }
 
 .header-mail {
-    fill: var(--main-svg-fill);
+    fill: var(--additional-color);
     width: 16px;
     height: 12px;
     margin: 0 10px 0 0;
@@ -286,6 +288,7 @@ header {
     line-height: 1.18;
     letter-spacing: 0.48px;
     margin-top: 10px;
+    margin-bottom: 16px;
 }
 
 .workers-discription {
@@ -300,7 +303,7 @@ header {
     justify-content: center;
     align-items: center;
     column-gap: 10px;
-    padding: 30px 0 ;
+    padding-bottom: 30px;
 }
 
 .workers-social {
@@ -395,7 +398,7 @@ footer {
 
 .footer-full {
     display: flex;
-    justify-content: baseline;
+    align-items: baseline;
 }
 
 .fotter-logo {
