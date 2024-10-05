@@ -86,7 +86,7 @@ header {
     align-items: center;
 }
 
-:focus{
+:focus {
     border: 0px solid transparent;
     outline: none;
 }
@@ -97,10 +97,12 @@ header {
     fill: var(--accent-color);
     border: 0px solid transparent;
     outline: none;
-    .tel{
+
+    .tel {
         fill: var(--accent-color);
     }
-    .header-mail{
+
+    .header-mail {
         fill: var(--accent-color);
     }
 }
@@ -231,13 +233,34 @@ header {
     margin-bottom: 50px;
 }
 
-.wawd {
+.wawd{
     padding: 94px 0;
 }
 
 .wawd-list {
     display: flex;
     gap: 30px;
+}
+
+.pos-text {
+    color: var(--main-background);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.positioned {
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 70px;
 }
 
 .workers-select {
