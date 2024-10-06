@@ -242,6 +242,10 @@ header {
     gap: 30px;
 }
 
+.wawd-items{
+    position: relative;
+}
+
 .pos-text {
     color: var(--main-background);
     text-align: center;
@@ -259,8 +263,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    bottom: 70px;
+    position:absolute;
+    top: 224px;
 }
 
 .workers-select {
