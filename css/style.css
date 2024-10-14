@@ -511,88 +511,6 @@ footer {
     height: 20px;
 }
 
-/* portfolio css */
-/* portfolio css */
-/* portfolio css */
-
-.port {
-    outline: 1px var(--portfolio-header-line) solid;
-}
-
-.asortie-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    margin-bottom: 50px;
-}
-
-.asortie {
-    padding: 94px 0px 94px 0px;
-}
-
-.asortie-all {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-.asortie-pages {
-    border: 1px solid #EEE;
-    flex-basis: calc((100% - 60px) / 3);
-}
-
-.asortie-pages:hover {
-    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-}
-
-.pages-discription {
-    padding: 20px 24px 20px 24px;
-}
-
-.asortie-btn {
-    color: var(--title-color);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.62;
-    letter-spacing: 0.48px;
-    border: var(--title-color);
-    border-radius: 4px;
-    padding: 6px 25px;
-}
-
-.asortie-btn:hover {
-    background-color: var(--accent-color);
-    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
-}
-
-.asortie-btn:hover {
-    background-color: var(--accent-color);
-    color: var(--main-background);
-}
-
-.pages-name {
-    color: var(--title-color);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 2;
-    letter-spacing: 1.08px;
-}
-
-.pages-text {
-    color: var(--additional-color);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.87;
-    letter-spacing: 0.48px;
-    margin-top: 4px;
-}
-
-.pages-img {
-    width: 100%;
-}
-
 /* modal */
 /* modal */
 /* modal */
@@ -747,6 +665,14 @@ footer {
     left: 10px;
 }
 
+.people{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 12px;
+    left: 11px;
+}
+
 .modal-box {
     position: relative;
 }
@@ -842,4 +768,86 @@ footer-form */
     height: 24px;
     fill: var(--main-background);
     margin-left: 10px;
+}
+
+/* portfolio css */
+/* portfolio css */
+/* portfolio css */
+
+.port {
+    outline: 1px var(--portfolio-header-line) solid;
+}
+
+.asortie-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+
+.asortie {
+    padding: 94px 0px 94px 0px;
+}
+
+.asortie-all {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.asortie-pages {
+    border: 1px solid #EEE;
+    flex-basis: calc((100% - 60px) / 3);
+}
+
+.asortie-pages:hover {
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+.pages-discription {
+    padding: 20px 24px 20px 24px;
+}
+
+.asortie-btn {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.48px;
+    border: var(--title-color);
+    border-radius: 4px;
+    padding: 6px 25px;
+}
+
+.asortie-btn:hover {
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+}
+
+.asortie-btn:hover {
+    background-color: var(--accent-color);
+    color: var(--main-background);
+}
+
+.pages-name {
+    color: var(--title-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 1.08px;
+}
+
+.pages-text {
+    color: var(--additional-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+    letter-spacing: 0.48px;
+    margin-top: 4px;
+}
+
+.pages-img {
+    width: 100%;
 }
