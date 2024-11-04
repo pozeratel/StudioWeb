@@ -834,6 +834,10 @@ footer-form */
     margin-left: 10px;
 }
 
+.animate__fadeInUp{
+    animation-duration: 1s;
+}
+
 /* portfolio css */
 /* portfolio css */
 /* portfolio css */
